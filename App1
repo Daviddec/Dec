@@ -1,0 +1,19 @@
+import com.amadeus.Amadeus;
+import com.Amadeus.Params;
+
+import com.Amadeus.exceptions.ResponseException;
+import com.Amadeus.referenceData.Locations;
+
+public class AmadeusExample{
+  public static void main(String[] args) ResponseException {
+   Amadeus amdeus = Amadeus
+    .builder(4XZZmARLjFsCIr1M6seHECTvyea3UtHY, M9j1qGDbNlj1Vazl)
+    .build();
+    Location[] locations = amadeus.referanceData.locations.get(Params
+      .with(keyword, LON)
+      with(subType, Locations.ANY
+      
+System.out.println(locations);
+    }
+  }
+  
